@@ -46,9 +46,9 @@ body {
 @media (max-width: 600px) {
     .hero {
         background: url("https: //indianexpress.com/article/trending/top-10-listing/top-10-tourist-attractions-in-the-world-in-2024-check-if-any-indian-site-featured-in-the-list-9424463/") center/cover no-repeat;
-        height: 50px;
-        font-size: 18px
-    }
+        height: 100px;
+        font-size: 10px;
+        }
 
     .hero-text h1 {
         font-size: 1.8rem;
