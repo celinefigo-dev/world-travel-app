@@ -42,21 +42,18 @@ body {
     font-size: 30px;
 }
 
-/* Mobile small screen hero */
+/* Mobile smaller hero */
 @media (max-width: 600px) {
-.hero {
-
-    background: url("https: //indianexpress.com/article/trending/top-10-listing/top-10-tourist-attractions-in-the-world-in-2024-check-if-any-indian-site-featured-in-the-list-9424463/") center/cover no-repeat;
-    height: 50px;
-    
-    }
-        
+    .hero {
+        background: url("https: //indianexpress.com/article/trending/top-10-listing/top-10-tourist-attractions-in-the-world-in-2024-check-if-any-indian-site-featured-in-the-list-9424463/") center/cover no-repeat;
+        height: 50px;
+        font-size: 18px
     }
 
-.hero-text h1 {
-    font-size: 1.8rem;
+    .hero-text h1 {
+        font-size: 1.8rem;
     }
-
+}
 
 .search-box {
     text-align: center;
