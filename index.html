@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Travel Explorer</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <header class="hero">
+        <picture>
+            <!-- Mobile image -->
+            <source srcset="images/hero-small.jpg" media="(max-width: 768px)">
+    
+            <!-- Desktop image -->
+            <source srcset="images/hero-large.jpg" media="(min-width: 769px)">
+    
+            <!-- Fallback -->
+            <img src="images/hero-large.jpg" alt="World Travel Hero Image" class="hero-img">
+        </picture>
+    
+        <div class="hero-text">
+            <h1>🌍 World Travel Finder</h1>
+            <p>Discover countries, flags, languages, and top attractions</p>
+        </div>
+    </header>
+
+    <div class="search-box">
+        <input id="searchInput" placeholder="Search country..." />
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="history"></div>
+    <div id="results"></div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
